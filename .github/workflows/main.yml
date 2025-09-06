@@ -11,7 +11,7 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'lineage-15.1'
+        default: 'cm-14.1'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
