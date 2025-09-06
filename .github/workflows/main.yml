@@ -43,7 +43,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'full_y67-userdebug'
+        default: 'lineage_y67-userdebug'
 
 jobs:
   build-lineageos:
