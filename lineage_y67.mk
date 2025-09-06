@@ -28,7 +28,7 @@ PRODUCT_SYSTEM_SERVER_JARS += com.cyanogenmod.keyhandler
 $(call add-product-dex-preopt-module-config,com.cyanogenmod.keyhandler,disable)
 
 PRODUCT_DEVICE := y67
-PRODUCT_NAME := full_y67
+PRODUCT_NAME := lineage_y67
 PRODUCT_BRAND := vivo
 PRODUCT_MODEL := y67
 PRODUCT_MANUFACTURER := vivo
