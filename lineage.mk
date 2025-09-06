@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/vivo/y67/full_y67.mk)
+$(call inherit-product, device/vivo/y67/lineage_y67.mk)
 
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
