@@ -11,39 +11,39 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'lineage-16.0'
+        default: 'lineage-15.1'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/XingKongTanSuo/lineage_device_mt8167'
+        default: 'https://github.com/XingKongTanSuo/android_device_vivo_y67'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'lineage-S1S'
+        default: 'lineage-14.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/EEBBK/S1S'
+        default: 'device/vivo/y67'
       VENDOR_BLOBS_URL:
         description: 'VENDOR_BLOBS_URL'
         required: false
-        default: 'your_vendor_tree_url'
+        default: 'https://github.com/XingKongTanSuo/android_vendor_vivo_y67'
       VENDOR_BRANCH:
         description: 'VENDOR_BRANCH'
         required: false
-        default: 'lineage-S1S'
+        default: 'lineage-14.1'
       VENDOR_PATH:
         description: 'VENDOR_PATH'
         required: true
-        default: 'vendor/EEBBK/S1S'
+        default: 'vendor/vivo/y67'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'S1S'
+        default: 'y67'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'lineage_S1S-userdebug'
+        default: 'full_y67-userdebug'
 
 jobs:
   build-lineageos:
