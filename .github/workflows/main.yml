@@ -19,7 +19,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'lineage-14.1'
+        default: 'lineage14.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -31,7 +31,7 @@ on:
       VENDOR_BRANCH:
         description: 'VENDOR_BRANCH'
         required: false
-        default: 'lineage-14.1'
+        default: 'lineage14.1'
       VENDOR_PATH:
         description: 'VENDOR_PATH'
         required: true
