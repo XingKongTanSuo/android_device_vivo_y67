@@ -102,6 +102,7 @@ jobs:
         cd ${{ steps.pwd.outputs.workspace-folder }}/lineage/
         git clone ${{ github.event.inputs.DEVICE_TREE_URL }} -b ${{ github.event.inputs.DEVICE_TREE_BRANCH }} ./${{ github.event.inputs.DEVICE_PATH }}
         git clone ${{ github.event.inputs.VENDOR_BLOBS_URL }} -b ${{ github.event.inputs.VENDOR_BRANCH }} ./${{ github.event.inputs.VENDOR_PATH }}
+        git clone https://github.com/Deepflex/android_device_cyanogen_mt6755-common ./device/cyanogen/mt6755-common
       working-directory: ${{ steps.pwd.outputs.workspace-folder }}
 
     - name: Set Swap Space
