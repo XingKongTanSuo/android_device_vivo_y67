@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := y67
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/cm/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/vivo/y67/device_y67.mk)
