@@ -11,7 +11,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/vivo/y67/device_y67.mk)
 
 PRODUCT_DEVICE := y67
-PRODUCT_NAME := y67
+PRODUCT_NAME := cm_y67
 PRODUCT_BRAND := vivo
 PRODUCT_MODEL := vivo y67
 PRODUCT_MANUFACTURER := vivo
